@@ -1,0 +1,139 @@
+<!Doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mike Will Codes</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet"> 
+
+</head>
+
+<body>
+  <!-- Navigation -->
+<header class="heading">
+<nav class="nav">
+         <ul>
+             <li><a href="#about">About</a></li>
+             <li><a href="#resume-section-color">Resume</a></li>
+             <li><a href="#exp-section-color">Skills</a></li>
+         </ul>
+      </nav>
+    </header>
+
+</header>
+  <!-- Navigation End -->
+
+  <div class="about" id="aboutMe-section-color">
+    <!-- Header Image -->
+       <center>
+    <img src="https://pbs.twimg.com/profile_images/954229646727446529/XNRsa2Ud_400x400.jpg"></center>
+    <!-- Header Image End-->
+  </div>
+<!-- About Me -->
+      <div id="about"><div class="inner">
+        <p>Hello, World! I'm a developer, designer, and student-athlete</p>
+        <!-- Console -->
+          <div id="code">
+            <div id="console">
+              &gt; Mike.origin<br/>
+              <span class="answer">&nbsp;&nbsp;=&gt; "Houston, Tx"<br/><br/></span>
+              &gt; Mike.education<br/>
+              <span class="answer">&nbsp;&nbsp;=&gt; "Xavier University of Louisiana"<br/><br/></span>
+              &gt; Mike.major<br/>
+              <span class="answer">&nbsp;&nbsp;=&gt; "Computer Science"<br/><br/></span>
+              &gt; Mike.expectedGraduation<br/>
+              <span class="answer">&nbsp;&nbsp;=&gt; "May 2020"<br/><br/></span>
+              &gt; Mike.interests<br/>
+              <span class="answer">&nbsp;&nbsp;=&gt; ["Basketball", "Code", "90's R&B", "Cereal", "ChickFilA"]<br/><br/></span>
+              &gt; Mike.workExperience.latest<br/>
+              <span class="answer">&nbsp;&nbsp;=&gt; Latest Work Experience<br/>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; company: "XULA CPSC Reserach Group"<br/>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; role: "Team Lead"<br/>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; startDate: "August 2016"<br/>
+                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; endDate: "December 2017"<br/>
+              <br/></span>
+              &gt; Mike.resume<br/>
+              <span class="answer">&nbsp;&nbsp;=&gt; "<a target="_blank" href="Mike Williams Internship Resume.pdf">MikeWillResume.pdf</a>"<br/><br/></span>
+              &gt; Mike.thoughts<br/>
+              <span class="answer">&nbsp;&nbsp;=&gt; ["<a target="_blank" href="https://twitter.com/_TheLead">@_TheLead</a>",
+                 "<a target="_blank" href="http://ifhewontmikewill.tumblr.com/">ifhewontmikewill.tumblr.com/</a>",
+                 "<a target="_blank" href="https://www.facebook.com/mike.williams.5477272">Facebook</a>"]<br/><br/></span>
+              &gt; Mike.email<br/>
+              <span class="answer">&nbsp;&nbsp;=&gt; "<a target="_blank" href="mailto:MikeWillCodes@gmail.com">MikeWillCodes@gmail.com</a>"<br/><br/></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+  <div class="personality" id="personality-section-color">
+    <br>
+    <h3>About Me</h3>
+    <br>
+    I'm Mike Williams, Student-Athlete, Coder, and 90's R&B Finatic.
+    I am a computer science major at Xavier University of Louisiana. Also, a team member of XULA men's basketball, and proud member of the National Society of Black Engineers. Yes, The boy is versatile. I equally have a passion for sports and tech. I'm still trying to find a way to combine the two. My goal is the change the culture of the tech industry. By mentorship, active involvment in the community, and spreading information to those like myself who lacked the knowledge of the great oppurtunities in tech.
+  </div>
+
+
+
+  <div class="resume" id="resume-section-color">
+    <h3>RESUME</h3>
+    <br>
+    Available in PDF form on this very site.
+    <a href="./Mike Williams Internship Resume.pdf" download="Mike Will Resume"> Download My Resume</a>
+  </div>
+
+
+  <div class="experience" id="exp-section-color">
+    <h3>Coursework/Skills</h3>
+    <br>
+    I’m currently starting my 2nd year as a computer science student at Xavier University of Louisiana, the most prestigous HBCU in the land. Currently seeking a summer internship/co-op.
+<br>
+<br>
+    Java is my first true programming language that I spend majority of my time with. I have recently gained interest in mobile application development. It's just somethng about building an app from scratch that is so satisfying. I enjoy using Android Studio to utilize my creativity.
+<br>
+<br>
+    I am also acquainted in various languages such as HTML, CSS, Javascript (mostly with jQuery), Java, and Python. Im currently gaining famililarity with iOS and Swift. I am learning Scala next, and possibly PHP but plans tend to get altered as time passes.
+<br>
+<br>
+    Other than the work that I did for XULA, and most class assignments, some of my code is available on my GitHub account.
+  </div>
+
+
+
+<!-- JavaScript Styling (change to external later) -->
+  <script>
+  // Detecting if "navbar" is in a mobile state. If it is become responsive, els (if not) stay the same.
+    function dropdownMenu() {
+      var x = document.getElementById("dropdownClick");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+        // change topnav to topnav.responsive
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+
+
+</body>
+
+<footer>
+  <!-- Auto Update Copyright Year -->
+  <ul>
+    <li class="footerLeft">Michael Williams &copy; 2017 -<span id="year">
+      <script>document.getElementById('year').appendChild(document.createTextNode(new Date().getFullYear()))</script></span></li>
+  <!-- Links to Social Media -->
+    <li class="footerRight"><a href="https://github.com/MikeWillCodes">Github</a></li>
+    <li class="footerRight"><a href="https://www.linkedin.com/in/michael-williams-85ba72140/">Linkedin</a></li>
+    <li class="footerRight"><a href="https://twitter.com/_TheLead">Twitter</a></li>
+    <li class="footerRight"><a href="https://www.facebook.com/mike.williams.5477272">Facebook</a></li>
+    <li class="footerRight"><a href="https://www.quora.com/profile/Michael-Williams-1063">Quora</a></li>
+  </ul>
+</footer>
+
+
+</html>
